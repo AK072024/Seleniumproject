@@ -59,6 +59,7 @@ public class TC01_Userregistration extends Baseclass {
 		Accountloginandregistrationpage alrp = new Accountloginandregistrationpage(driver);
 		alrp.enterusername("Arjuna Phalguna");
 		alrp.enteremail("Email7894@test.com");
+		alrp.getTitle();
 		alrp.clickSignup();
 	}
 
