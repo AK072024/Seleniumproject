@@ -52,6 +52,15 @@ public class TC01_Userregistration extends Baseclass {
 		alrp.enteremail("Email@test.com");
 		alrp.clickSignup();
 	}
+	@Test
+	public void verify_failure1() {
+		Homepage hp = new Homepage(driver);
+		hp.clicksingupandloginlink();
+		Accountloginandregistrationpage alrp = new Accountloginandregistrationpage(driver);
+		alrp.enterusername("Arjuna");
+		alrp.enteremail("Email@test.com");
+		alrp.clickSignup();
+	}
 	
 
 }
