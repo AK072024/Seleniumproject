@@ -60,6 +60,7 @@ public class TC01_Userregistration extends Baseclass {
 		alrp.enterusername("Arjuna Phalguna");
 		alrp.enteremail("Email7894@test.com");
 		alrp.clickSignup();
+		alrp.clickSignup();
 	}
 
 }
