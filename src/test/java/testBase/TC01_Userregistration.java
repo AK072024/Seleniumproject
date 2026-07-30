@@ -58,7 +58,7 @@ public class TC01_Userregistration extends Baseclass {
 		hp.clicksingupandloginlink();
 		Accountloginandregistrationpage alrp = new Accountloginandregistrationpage(driver);
 		alrp.enterusername("Arjuna");
-		alrp.enteremail("Email@test.com");
+		alrp.enteremail("EmailaydrsuDUYD@test.com");
 		alrp.clickSignup();
 	}
 	
